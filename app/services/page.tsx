@@ -1,7 +1,14 @@
 import React from 'react';
+import { IconType } from 'react-icons';
 import { FaTractor, FaLeaf, FaChartLine, FaWarehouse, FaTruck, FaRobot } from 'react-icons/fa';
 
-const ServiceCard = ({ icon, title, description }) => (
+interface ServiceCardProps {
+  icon: React.ReactElement;
+  title: string;
+  description: string;
+}
+
+const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => (
   <div className="bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-xl">
     <div className="text-4xl text-green-600 mb-4">{icon}</div>
     <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
@@ -9,8 +16,14 @@ const ServiceCard = ({ icon, title, description }) => (
   </div>
 );
 
-const Services = () => {
-  const services = [
+interface Service {
+  icon: React.ReactElement;
+  title: string;
+  description: string;
+}
+
+const Services: React.FC = () => {
+  const services: Service[] = [
     {
       icon: <FaTractor />,
       title: "Smart Farming Solutions",
