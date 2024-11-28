@@ -7,7 +7,7 @@ const About = () => {
     { name: "Sujit Singh", role: "Founder & Partner", imageUrl: "/images/sujit.jpg" },
     { name: "Mayank Singh", role: "Founder, Partner & Strategist", imageUrl: "/images/mayank.jpg" },
     { name: "Shivani Singh", role: "Founder & Head of Marketing", imageUrl: "/images/shivani.jpg" },
-    { name: "Madhavi Singh", role: "Founder &Head of HR", imageUrl: "/images/madhavi.jpg" },
+    { name: "Madhavi Singh", role: "Founder & Head of HR", imageUrl: "/images/madhavi.jpg" },
     { name: "Swaraj Yadav", role: "CTO", imageUrl: "/images/swaraj.jpg" },
   ];
 
