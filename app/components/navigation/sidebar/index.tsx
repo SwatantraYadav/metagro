@@ -44,6 +44,7 @@ const Sidebar = ({
             {[
               { href: "/", label: "Home" },
               { href: "/about", label: "About Us" },
+              { href: "/press", label: "Press Releases" },
               { href: "/services", label: "Services" },
               { href: "/contacts", label: "Contacts" },
               { href: "/certificate", label: "Certificate" }, // Add this line
