@@ -28,9 +28,19 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </svg>
             </button>
             <ul className="hidden md:flex gap-x-6 text-white ">
+            <li>
+                <Link href="/">
+                  <p>Home</p>
+                </Link>
+              </li>
               <li>
                 <Link href="/about">
                   <p>About Us</p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/press">
+                  <p>Press</p>
                 </Link>
               </li>
               <li>
