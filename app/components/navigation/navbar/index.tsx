@@ -49,6 +49,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 </Link>
               </li>
               <li>
+                <Link href="/solutions">
+                  <p>PRUNEX</p>
+                </Link>
+              </li>
+              <li>
                 <Link href="/contacts">
                   <p>Contacts</p>
                 </Link>

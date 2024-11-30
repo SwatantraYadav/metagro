@@ -46,6 +46,7 @@ const Sidebar = ({
               { href: "/about", label: "About Us" },
               { href: "/press", label: "Press Releases" },
               { href: "/services", label: "Services" },
+              { href: "/solutions", label: "PRUNEX" },
               { href: "/contacts", label: "Contacts" },
               { href: "/certificate", label: "Certificate" }, // Add this line
               { href: "/signin", label: "SignIn" }, 
