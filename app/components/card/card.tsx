@@ -7,9 +7,10 @@ interface CardProps {
   description: string;
   imageUrl: string;
   altText: string;
+  subDescription: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, description, imageUrl, altText }) => {
+const Card: React.FC<CardProps> = ({ title, description, imageUrl, altText, subDescription }) => {
   return (
     <div className={`${styles.card} card`}>
       <div className="card-image">
@@ -24,6 +25,7 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, altText }) =>
       <div className={`${styles['card-content']} card-content`}>
         <h2 className={`${styles['card-title']} card-title`}>{title}</h2>
         <p className={`${styles['card-description']} card-description`}>{description}</p>
+        <p className="text-sm text-gray-500 mt-2">{subDescription}</p>
       </div>
   </div>
   );

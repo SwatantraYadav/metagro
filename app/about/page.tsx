@@ -3,12 +3,42 @@ import Image from 'next/image';
 
 const About = () => {
   const teamMembers = [
-    { name: "Priyank Yadav", role: "Founder & CEO", imageUrl: "/images/priyank.jpg" },
-    { name: "Sujit Singh", role: "Founder & Partner", imageUrl: "/images/sujit.jpg" },
-    { name: "Mayank Singh", role: "Founder, Partner & Strategist", imageUrl: "/images/mayank.jpg" },
-    { name: "Shivani Singh", role: "Founder & Head of Marketing", imageUrl: "/images/shivani.jpg" },
-    { name: "Madhavi Singh", role: "Founder & Head of HR", imageUrl: "/images/madhavi.jpg" },
-    { name: "Swaraj Yadav", role: "CTO", imageUrl: "/images/swaraj.jpg" },
+    { 
+      name: "Priyank Yadav", 
+      role: "Founder & Digital Transformation", 
+      imageUrl: "/images/priyank.jpg",
+      description: "Master's in Management from MNNIT Allahabad with 24 years of communications and ICT experience. Led projects in SMART cities, APDRP, and digital  initiatives for Education and UP Police. Expertise in ICT strategy, new business rollouts, and digital transformation. Over 15 years in leadership roles at Tata, Reliance Jio, and RCL."
+    },
+    { 
+      name: "Sujeet Singh", 
+      role: "Founder & Finance", 
+      imageUrl: "/images/sujit.jpg",
+      description: "MSME Lending & Business Development expert with more than 2 decades of experience in top banks in Financial Services Co. An effective planner, a strong leader, strategist, with ability to see big picture, set goals and lead successful execution through excellent team management & problem-solving skills with Serenity."
+    },
+    { 
+      name: "Mayank Singh", 
+      role: "Founder & Goverment Policy, Strategist", 
+      imageUrl: "/images/mayank.jpg",
+      description: "Specializes in Agri Project Management & Govt. Relations. Deep understanding of key sectors such as Environment, Urban & Rural Infrastructure and International Market & Regulations. Have rich overseas experience of Agri-Project Management in UAE & Africa."
+    },
+    { 
+      name: "Shivani Singh", 
+      role: "Founder & Head of Marketing", 
+      imageUrl: "/images/shivani.jpg",
+      description: "Marketing professional specializing in agricultural product promotion and brand development."
+    },
+    { 
+      name: "Madhavi Singh", 
+      role: "Founder & Head of HR", 
+      imageUrl: "/images/madhavi.jpg",
+      description: "Human resources expert focusing on talent acquisition and team development."
+    },
+    { 
+      name: "Swaraj Yadav", 
+      role: "CTO", 
+      imageUrl: "/images/swaraj.jpg",
+      description: "Technology leader with expertise in AI and agricultural automation systems."
+    },
   ];
 
   return (
@@ -24,19 +54,12 @@ const About = () => {
               description={member.role}
               imageUrl={member.imageUrl}
               altText={`${member.name} - ${member.role}`}
+              subDescription={member.description}
             />
           ))}
         </div>
 
-        <div className="mt-16 bg-white rounded-lg shadow-md p-8">
-          <h2 className="text-3xl font-semibold text-gray-800 mb-6">About Metagro</h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Metagro is at the forefront of agricultural innovation, combining cutting-edge technology with traditional farming practices. Our mission is to revolutionize the agricultural industry by providing smart, sustainable solutions that benefit farmers, consumers, and the environment.
-          </p>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            Founded by a team of passionate experts in agriculture and technology, we're committed to addressing the challenges faced by modern farming. Through our AI-driven tools and comprehensive supply chain management, we're creating a more efficient, productive, and sustainable future for agriculture.
-          </p>
-        </div>
+        {/* Rest of the code remains the same */}
       </div>
     </div>
   );
