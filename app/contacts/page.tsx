@@ -15,15 +15,15 @@ const Contact = () => {
           <div className="space-y-6">
             <div className="flex items-center justify-center space-x-4">
               <FaEnvelope className="text-3xl text-blue-600" />
-              <a href="mailto:Sales@metaagro.co.in" className="text-xl text-blue-600 hover:underline">
-                Sales@metaagro.co.in
+              <a href="mailto:metagro.in@gmail.com" className="text-xl text-blue-600 hover:underline">
+                metagro.in@gmail.com
               </a>
             </div>
             
             <div className="flex items-center justify-center space-x-4">
               <FaSkype className="text-3xl text-blue-600" />
-              <a href="skype:Sales@metaagro24?chat" className="text-xl text-blue-600 hover:underline">
-                Sales@metaagro24.co.in
+              <a href="https://bsky.app/profile/metagro.bsky.social" className="text-xl text-blue-600 hover:underline">
+              @metagro.bsky.social
               </a>
             </div>
           </div>
