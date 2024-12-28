@@ -58,6 +58,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   <p>Contacts</p>
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy">
+                  <p>Privacy Policy</p>
+                </Link>
+              </li>
             </ul>
             <div className="hidden md:block">
               <Button />

@@ -49,6 +49,7 @@ const Sidebar = ({
               { href: "/solutions", label: "PRUNEX" },
               { href: "/contacts", label: "Contacts" },
               { href: "/certificate", label: "Certificate" }, // Add this line
+              { href: "/privacy", label: "Privacy Policy" }, 
               { href: "/signin", label: "SignIn" }, 
             ].map((link) => (
               <li key={link.href}>
