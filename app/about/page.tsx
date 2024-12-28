@@ -5,19 +5,19 @@ const About = () => {
   const teamMembers = [
     { 
       name: "Priyank Yadav", 
-      role: "Founder & Digital Transformation", 
+      role: "Founder & Director of Digital Transformation", 
       imageUrl: "/images/priyank.jpg",
       description: "Master's in Management from MNNIT Allahabad with 24 years of communications and ICT experience. Led projects in SMART cities, APDRP, and digital  initiatives for Education and UP Police. Expertise in ICT strategy, new business rollouts, and digital transformation. Over 15 years in leadership roles at Tata, Reliance Jio, and RCL."
     },
     { 
       name: "Sujeet Singh", 
-      role: "Founder & Finance", 
+      role: "Head of Business Development & Finance", 
       imageUrl: "/images/sujit.jpg",
       description: "MSME Lending & Business Development expert with more than 2 decades of experience in top banks in Financial Services Co. An effective planner, a strong leader, strategist, with ability to see big picture, set goals and lead successful execution through excellent team management & problem-solving skills with Serenity."
     },
     { 
       name: "Mayank Singh", 
-      role: "Founder & Goverment Policy, Strategist", 
+      role: "Head of Government Policy, Strategist", 
       imageUrl: "/images/mayank.jpg",
       description: "Specializes in Agri Project Management & Govt. Relations. Deep understanding of key sectors such as Environment, Urban & Rural Infrastructure and International Market & Regulations. Have rich overseas experience of Agri-Project Management in UAE & Africa."
     },
