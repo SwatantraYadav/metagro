@@ -34,7 +34,7 @@ const Privacy = () => {
         <div className="mt-12 text-center">
           <p className="text-gray-600">
             For more information about our Privacy Policy or to request a copy, please{' '}
-            <a href="/contact" className="text-blue-600 hover:underline">contact us</a>.
+            <a href="/contacts" className="text-blue-600 hover:underline">contact us</a>.
           </p>
         </div>
       </div>
