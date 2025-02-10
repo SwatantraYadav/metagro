@@ -10,16 +10,6 @@ export default function Home() {
           </p>
         </div>
         <div className="relative w-full h-[60vh] md:h-[70vh] rounded-lg overflow-hidden shadow-xl mb-12">
-            <Image
-              src="/images/KavachAdv.jpeg"
-              alt="Kavach Fruit Bag"
-              fill
-              style={{ objectFit: 'cover' }}
-              priority
-              className="rounded-lg"
-            />
-          </div>
-        <div className="relative w-full h-[60vh] md:h-[70vh] rounded-lg overflow-hidden shadow-xl mb-12">
           <Image
             src="/images/bg-home.webp" // Replace with your actual image path
             alt="Agricultural technology"

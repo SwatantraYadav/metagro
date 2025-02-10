@@ -8,10 +8,10 @@ async function getPressReleases() {
   const pressReleases = [
     {
       id: 1,
-      title: "Respected Madam Anandiben Patel, Governor, Uttar Pradesh releases MetaAgro Kavach Paper Bags",
+      title: "Excellency Madam Anandiben Patel, Governor, Uttar Pradesh releases MetaAgro Kavach Paper Bags",
       date: "2024-01-15",
-      summary: "Respected Madam Anandiben Patel, Governor, Uttar Pradesh releases MetaAgro Kavach Paper Bags.",
-      link: "#",
+      summary: "Excellency Madam Anandiben Patel, Governor, Uttar Pradesh releases MetaAgro Kavach Paper Bags.",
+      link: "/press/governor",
       image: "/images/press/Governor.jpeg"
     },
     {
@@ -19,7 +19,7 @@ async function getPressReleases() {
       title: "MetaGro booth at TaJ Hotel, Lucknow",
       date: "2024-01-15",
       summary: "MetaGro unveils Kavach Paper bags.",
-      link: "#",
+      link: "/press/booth",
       image: "/images/press/Camp.jpeg"
     },
     {
