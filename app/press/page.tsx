@@ -78,7 +78,7 @@ export default async function PressPage() {
                   src={press.image}
                   alt={press.title}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>

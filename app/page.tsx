@@ -48,7 +48,7 @@ export default function Home() {
             className="inline-flex items-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors duration-200"
           >
             <Image
-              src="/images/GooglePlay.png"
+              src="/images/Googleplay.png"
               alt="Get it on Google Play"
               width={175}
               height={48}
