@@ -32,13 +32,7 @@ const About = () => {
       role: "Founder & Head of HR", 
       imageUrl: "/images/madhavi.jpg",
       description: "Human resources expert focusing on talent acquisition and team development."
-    },
-    { 
-      name: "Swaraj Yadav", 
-      role: "CTO", 
-      imageUrl: "/images/swaraj.jpg",
-      description: "Technology leader with expertise in AI and agricultural automation systems."
-    },
+    }
   ];
 
   return (
