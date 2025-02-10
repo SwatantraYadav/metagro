@@ -34,6 +34,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 </Link>
               </li>
               <li>
+                <Link href="/products">
+                  <p>Kavach Fruit Bag</p>
+                </Link>
+              </li>
+              <li>
                 <Link href="/about">
                   <p>About Us</p>
                 </Link>

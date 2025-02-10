@@ -45,6 +45,7 @@ const Sidebar = ({
               { href: "/", label: "Home" },
               { href: "/about", label: "About Us" },
               { href: "/press", label: "Press Releases" },
+              { href: "/products", label: "Kavach Fruit Bag" }, 
               { href: "/services", label: "Services" },
               { href: "/solutions", label: "PRUNEX" },
               { href: "/contacts", label: "Contacts" },

@@ -8,6 +8,22 @@ async function getPressReleases() {
   const pressReleases = [
     {
       id: 1,
+      title: "Respected Madam Anandiben Patel, Governor, Uttar Pradesh releases MetaAgro Kavach Paper Bags",
+      date: "2024-01-15",
+      summary: "Respected Madam Anandiben Patel, Governor, Uttar Pradesh releases MetaAgro Kavach Paper Bags.",
+      link: "#",
+      image: "/images/press/Governor.jpeg"
+    },
+    {
+      id: 2,
+      title: "MetaGro booth at TaJ Hotel, Lucknow",
+      date: "2024-01-15",
+      summary: "MetaGro unveils Kavach Paper bags.",
+      link: "#",
+      image: "/images/press/Camp.jpeg"
+    },
+    {
+      id: 3,
       title: "MetaGro Announces Revolutionary Farming Technology",
       date: "2024-01-15",
       summary: "MetaGro unveils new sustainable farming solutions that promise to revolutionize agricultural practices.",
@@ -15,7 +31,7 @@ async function getPressReleases() {
       image: "/images/press/farmers.jpg"
     },
     {
-      id: 2,
+      id: 4,
       title: "Partnership with Leading Agricultual Organizations (FPOs)",
       date: "2024-12-20",
       summary: "MetaGro forms strategic partnership to advance research in sustainable agriculture.",
@@ -23,7 +39,7 @@ async function getPressReleases() {
       image: "/images/press/harvesting.jpg"
     },
     {
-        id: 3,
+        id: 5,
         title: "News Clip",
         date: "2023-12-20",
         summary: "Announcements from the Government organizations regaring upcoming farming techniques",
@@ -31,7 +47,7 @@ async function getPressReleases() {
         image: "/images/press/newsclip.jpg"
       },
       {
-        id: 4,
+        id: 6,
         title: "Packaging Machine",
         date: "2024-11-10",
         summary: "Made in India machine for wrapping paper production for mangoes",
